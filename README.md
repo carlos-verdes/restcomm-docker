@@ -6,7 +6,7 @@ The problem with gvagenas/restcomm is that the jboss has some war files inside t
 
 This image configure a new deployments folder inside standalone.xml so the user could mount the image as bellow:
 ```
-docker run -v /yourAppFolder:/apps nosolojava/restcomm-docker
+docker run -v /yourAppFolder:/apps nosolojava/restcomm
 ```
 
 
